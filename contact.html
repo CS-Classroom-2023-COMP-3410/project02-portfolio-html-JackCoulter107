@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- 
+    Title: Contact Jack Coulter
+    Description: Contact Jack Coulter
+  -->
+  <meta charset="UTF-8">
+  <meta name="description" content="Jack Coulter's Contact Page">
+  <title>Contact</title>
+
+  <style>
+    body {
+      background-color: #deffc9;
+      font-family: "Lucida Sans", "Trebuchet MS", sans-serif;
+    }
+
+    .form-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .form-row {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin-bottom: 15px;
+      width: 400px; /* Limit the width of the form */
+    }
+
+    .form-row label {
+      width: 100px;
+      text-align: right;
+      margin-right: 10px;
+    }
+
+    textarea {
+      resize: none;
+    }
+
+    .additional-contact {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .additional-contact p {
+      margin: 5px 0;
+    }
+
+    .social-media {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .social-media a {
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .social-media a:hover {
+      color: darkgreen;
+    }
+
+    .social-media-note {
+      margin-top: 10px;
+      font-size: 0.9em;
+      color: darkred;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Links -->
+  <p align="center">
+    <a href="index.html">Home</a> |
+    <a href="about.html">About Me</a> |
+    <a href="contact.html">Contact</a> |
+    <a href="gallery/gallery.html">Gallery</a> |
+    <a href="favorites/locations.html">My Favorite Locations</a>
+  </p>
+
+  <h1 align="center">Contact Me</h1>
+
+  <p align="center">
+    Send me a message! I'll get back to you as soon as I can!
+  </p>
+
+  <p align="center">
+    Email: <a href="mailto:jackcoulter97@gmail.com">jackcoulter97@gmail.com</a>
+  </p>
+
+  <!-- Updated Form -->
+  <div class="form-container">
+    <form action="mailto:jackcoulter97@gmail.com" method="get" enctype="text/plain">
+      <!-- Name Input -->
+      <div class="form-row">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name">
+      </div>
+
+      <!-- Subject Input -->
+      <div class="form-row">
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject">
+      </div>
+
+      <!-- Message Input -->
+      <div class="form-row">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" cols="30"></textarea>
+      </div>
+
+      <!-- Buttons -->
+      <div class="form-row" style="justify-content: center;">
+        <input type="submit" value="Send Email">
+        <input type="reset" value="Reset">
+      </div>
+    </form>
+  </div>
+
+  <!-- Additional Contact Information -->
+  <div class="additional-contact">
+    <h2>Other Ways to Connect</h2>
+    <p>Feel free to reach out via:</p>
+    <p><strong>Phone:</strong> +1 (907) 317-2810</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jack-coulter256/" target="_blank">https://www.linkedin.com/in/jack-coulter256/</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/JackCoulter107" target="_blank">https://github.com/JackCoulter107</a></p>
+  </div>
+
+  <!-- Social Media Section -->
+  <div class="social-media">
+    <h2>Follow Me on Social Media</h2>
+    <p>
+      <a href="https://www.instagram.com/jackcoulter" target="_blank">Instagram</a> |
+      <a href="https://www.twitter.com/jackcoulter" target="_blank">Twitter</a> |
+      <a href="https://www.facebook.com/jackcoulter" target="_blank">Facebook</a>
+    </p>
+    <p class="social-media-note">(Social media links are fabricated)</p>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <hr color="black">
+    <p align="center">
+      <font color="black">© 2025 Jack Coulter</font>
+    </p>
+  </footer>
+
+</body>
+</html>
